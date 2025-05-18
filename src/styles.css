@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "VisbyDemiBold";
+  src: url("assets/fonts/visby-demibold.otf") format('opentype');
+  
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("assets/fonts/Gotham-Black-Regular.ttf") format('truetype');
+  
+}
+
+@font-face {
+  font-family: "VisbyMedium";
+  src: url("assets/fonts/visby-medium.otf") format('opentype');
+  
+}
+
+:root {
+  --deepblue: #0137A4;
+  --purple: #561597;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "VisbyMedium", sans-serif;
+  background: linear-gradient(141deg, var(--purple) 25%, var(--deepblue));
+  color: white;
+}
+
+p {
+
+    letter-spacing: 0.5px;
+}
+
+header {
+
+    font-family: "Gotham", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
