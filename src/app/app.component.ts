@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from "./header/header.component";
-import { SelectorComponent } from "./selector/selector.component";
-import { VibeRoomComponent } from './vibe-room/vibe-room.component';
 import { Vibe } from './vibe.model';
 import { CommonModule } from '@angular/common';
 import { WebcamComponent } from "./webcam/webcam.component";
