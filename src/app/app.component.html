@@ -1,3 +1,17 @@
+
+@if (selectedVibe) {
+
+    <img 
+    class="background-image"
+    [src]="selectedVibe.background">
+}
+
 <app-header></app-header>
 
-<app-image-list></app-image-list>
+<!-- <app-image-list></app-image-list> -->
+
+<app-selector (vibeSelected)="onVibeChosen($event)"></app-selector>
+
+<app-vibe-room [vibe]="selectedVibe"></app-vibe-room>
+
+<app-webcam></app-webcam>
