@@ -17,6 +17,12 @@
   
 }
 
+@font-face {
+  font-family: "TLOU";
+  src: url("assets/fonts/pressgothic.otf") format('opentype');
+  
+}
+
 :root {
   --deepblue: #0137A4;
   --purple: #561597;
@@ -30,13 +36,18 @@ html, body {
 
 body {
   font-family: "VisbyMedium", sans-serif;
-  background: linear-gradient(141deg, var(--purple) 25%, var(--deepblue));
+
+  background-image: url("assets/images/fundo2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.85);
 }
 
 p {
 
-    letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
 }
 
 header {

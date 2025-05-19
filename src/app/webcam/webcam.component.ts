@@ -17,17 +17,17 @@ export class WebcamComponent implements OnInit{
     {
       name: 'Rainy Vibe',
       background: 'assets/images/rainy.png',
-      audio: ''
+      audio: 'assets/tracks/rainy-track.mp3'
     },
     {
       name: 'Fall Vibe',
       background: 'assets/images/fall.png',
-      audio: ''
+      audio: 'assets/tracks/fall-track.mp3'
     },
     {
       name: 'Noon Vibe',
       background: 'assets/images/noon.png',
-      audio: ''
+      audio: 'assets/tracks/noon-track.mp3'
     }
   ]
 

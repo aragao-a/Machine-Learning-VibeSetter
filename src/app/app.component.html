@@ -4,14 +4,28 @@
     <img 
     class="background-image"
     [src]="selectedVibe.background">
+
+    <p>
+        {{ selectedVibe.name }}
+    </p>
+}
+
+@if (selectedVibe?.audio) {
+  <audio
+    #audioPlayer
+    [src]="selectedVibe?.audio"
+    autoplay
+    controls
+    style="display: none"
+  ></audio>
 }
 
 <app-header></app-header>
 
 <!-- <app-image-list></app-image-list> -->
 
-<app-selector (vibeSelected)="onVibeChosen($event)"></app-selector>
+<!-- <app-selector (vibeSelected)="onVibeChosen($event)"></app-selector> -->
 
-<app-vibe-room [vibe]="selectedVibe"></app-vibe-room>
+<!-- <app-vibe-room [vibe]="selectedVibe"></app-vibe-room> -->
 
 <app-webcam (camVibeSelected)="onCamVibeChosen($event)"></app-webcam>
