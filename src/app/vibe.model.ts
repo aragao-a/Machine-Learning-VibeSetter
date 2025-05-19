@@ -1,7 +1,7 @@
 
 export interface Vibe {
 
-  name: 'rainy' | 'fall' | 'noon';
+  name: 'Rainy Vibe' | 'Fall Vibe' | 'Noon Vibe';
   background: string; 
   audio: string;       
 }

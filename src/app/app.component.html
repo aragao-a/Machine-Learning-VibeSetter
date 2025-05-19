@@ -14,4 +14,4 @@
 
 <app-vibe-room [vibe]="selectedVibe"></app-vibe-room>
 
-<app-webcam></app-webcam>
+<app-webcam (camVibeSelected)="onCamVibeChosen($event)"></app-webcam>

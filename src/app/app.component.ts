@@ -24,5 +24,10 @@ export class AppComponent {
     
   }
 
+  onCamVibeChosen(vibe: Vibe) {
+
+    this.selectedVibe = vibe;
+  }
+
 
 }

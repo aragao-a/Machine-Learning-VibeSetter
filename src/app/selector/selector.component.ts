@@ -15,17 +15,17 @@ export class SelectorComponent {
   vibes: Vibe[] = [
 
     {
-      name: 'rainy',
+      name: 'Rainy Vibe',
       background: 'assets/images/rainy.png',
       audio: ''
     },
     {
-      name: 'fall',
+      name: 'Fall Vibe',
       background: 'assets/images/fall.png',
       audio: ''
     },
     {
-      name: 'noon',
+      name: 'Noon Vibe',
       background: 'assets/images/noon.png',
       audio: ''
     }
